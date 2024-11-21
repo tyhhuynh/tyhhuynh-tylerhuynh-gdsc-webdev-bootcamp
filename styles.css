@@ -1,0 +1,56 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: orchid;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: whitesmoke;
+  padding-top: 60px;
+  margin: 0;
+}
+
+.navbar {
+  background-color: orchid;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.button-container {
+  margin: 100px auto;
+}
+
+.button {
+  display: inline-block;
+  background-color: cyan;
+  color: black;
+  font-size: 30px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: red;
+}
